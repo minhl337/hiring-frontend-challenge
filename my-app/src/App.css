@@ -1,0 +1,106 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #58a6ff;
+  color: white;
+}
+
+.date-header {
+  font-weight: 700;
+  text-align: right;
+  margin: 32px 64px;
+}
+
+@media (max-width: 800px) {
+  .date-header {
+    display: none;
+  }
+  .header {
+    margin-top: 32px;
+  }
+}
+
+.container {
+  display: flex;
+  margin: 64px;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+
+.header {
+  font-size: 64px;
+  font-weight: 300;
+  width: 100%;
+}
+.mobile-date-header {
+  font-weight: 700;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 800px) {
+  .mobile-date-header {
+    display: none;
+  }
+}
+
+.header-sub {
+  font-weight: 900;
+}
+
+.cards-container {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card {
+  width: 48%;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.card-text {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.users {
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+}
+
+.user {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.colors {
+  width: 30%;
+  display: flex;
+}
+
+.votes {
+  padding: 8px;
+  background-color: rgb(10, 102, 163);
+  width: 30%;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  font-size: 12px;
+}
+
+.color {
+  flex: 1;
+  height: 100px;
+}
